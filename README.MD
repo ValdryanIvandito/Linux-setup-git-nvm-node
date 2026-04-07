@@ -163,9 +163,9 @@ Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads me
 pwd
 ```
 
-Setelah itu akan muncul contoh hasil seperti ini:
+Setelah itu akan muncul contoh hasil seperti ini (JANGAN DI COPY HANYA CONTOH):
 
-```JANGAN DI COPY
+```
 /home/'nama_user'
 ```
 
@@ -175,9 +175,9 @@ Kemudian kita cek lagi ada folder apa saja, ketikan perintah berikut:
 ls
 ```
 
-Setelah itu akan muncul contoh hasil seperti ini:
+Setelah itu akan muncul contoh hasil seperti ini (JANGAN DI COPY HANYA CONTOH):
 
-```(JANGAN DI COPY)
+```
 Desktop Downloads Music Public Videos
 Documents KodingUp Pictures Templates
 ```
@@ -194,9 +194,9 @@ Sekarang lokasi teman-teman harusnya berada di (/home/'nama_user'/Downloads) Kem
 ls
 ```
 
-Setelah itu akan muncul contoh hasil seperti ini:
+Setelah itu akan muncul contoh hasil seperti ini (JANGAN DI COPY HANYA CONTOH):
 
-```JANGAN DI COPY
+```
 code_1.114.0-1775036290_amd64.deb zoom_amd64.deb
 slack-desktop-4.47.69-amd64.deb
 ```
@@ -237,9 +237,9 @@ nvm --version
 node --version
 ```
 
-Contoh output:
+Contoh output (JANGAN DI COPY HANYA CONTOH):
 
-```JANGAN DI COPY
+```
 git version 2.xx.x
 0.xx.x
 vxx.xx.x
