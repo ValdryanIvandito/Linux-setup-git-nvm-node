@@ -14,8 +14,8 @@ Panduan ini diperuntukkan bagi teman-teman yang sudah berhasil menginstal sistem
 
 > ⚠️ **PETUNJUK PENTING: HARAP DIBACA DENGAN SAKSAMA!**
 
-- *Copy & paste* semua perintah-perintah di bawah ini.
-- Walaupun belum mengerti, **tidak masalah** — teman-teman bisa mempelajarinya nanti dengan *googling* tanya *AI* atau eksplorasi mandiri.
+- _Copy & paste_ semua perintah-perintah di bawah ini.
+- Walaupun belum mengerti, **tidak masalah** — teman-teman bisa mempelajarinya nanti dengan _googling_ tanya _AI_ atau eksplorasi mandiri.
 - Setiap menggunakan perintah **sudo**, teman-teman akan diminta memasukkan **password admin** yang telah teman-teman buat ketika pertamakali menginstal Linux.
 
 ---
@@ -25,11 +25,13 @@ Panduan ini diperuntukkan bagi teman-teman yang sudah berhasil menginstal sistem
 **Terminal** adalah aplikasi berbasis teks yang digunakan untuk menjalankan perintah di sistem operasi Linux.
 
 Dengan terminal, kita bisa:
+
 - Menginstal aplikasi
 - Mengelola file
 - Menjalankan program
 
 **Cara membuka terminal:**
+
 - Tekan `Ctrl + Alt + T`
 - Atau cari **"Terminal"** di menu aplikasi
 
@@ -43,7 +45,7 @@ sudo apt update
 
 Perintah ini digunakan untuk **memperbarui daftar repository aplikasi** agar sistem mengetahui versi terbaru dari paket yang tersedia.
 
-> *(Petunjuk: Ketika menggunakan sudo, teman-teman diminta untuk memasukkan password admin yang dibuat saat instalasi Linux.)*
+> _(Petunjuk: Ketika menggunakan sudo, teman-teman diminta untuk memasukkan password admin yang dibuat saat instalasi Linux.)_
 
 ---
 
@@ -61,7 +63,7 @@ Setelah proses selesai, verifikasi instalasi:
 curl --version
 ```
 
-> *(Petunjuk: Jika berhasil, terminal akan menampilkan versi curl. Jika belum muncul, tutup terminal lalu buka kembali dan jalankan ulang perintah tersebut.)*
+> _(Petunjuk: Jika berhasil, terminal akan menampilkan versi curl. Jika belum muncul, tutup terminal lalu buka kembali dan jalankan ulang perintah tersebut.)_
 
 ---
 
@@ -71,7 +73,7 @@ curl --version
 sudo apt install git
 ```
 
-**Git** adalah sistem *version control* yang digunakan untuk mengelola perubahan kode dan kolaborasi dalam pengembangan software.
+**Git** adalah sistem _version control_ yang digunakan untuk mengelola perubahan kode dan kolaborasi dalam pengembangan software.
 
 Verifikasi instalasi:
 
@@ -79,7 +81,7 @@ Verifikasi instalasi:
 git --version
 ```
 
-> *(Petunjuk: Jika berhasil, akan muncul versi Git. Jika belum, restart terminal dan coba lagi.)*
+> _(Petunjuk: Jika berhasil, akan muncul versi Git. Jika belum, restart terminal dan coba lagi.)_
 
 ---
 
@@ -91,9 +93,10 @@ Pada langkah ini kita akan menggunakan **curl** untuk menginstal **NVM (Node Ver
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
-> *(Catatan: Versi `v0.39.7` adalah versi stabil saat ini. Silakan cek versi terbaru di GitHub jika diperlukan.)*
+> _(Catatan: Versi `v0.39.7` adalah versi stabil saat ini. Silakan cek versi terbaru di GitHub jika diperlukan.)_
 
 **NVM** digunakan untuk:
+
 - Menginstal Node.js
 - Mengelola banyak versi Node.js dalam satu komputer
 
@@ -112,7 +115,7 @@ Verifikasi instalasi:
 nvm --version
 ```
 
-> *(Petunjuk: Jika berhasil, akan muncul versi NVM.)*
+> _(Petunjuk: Jika berhasil, akan muncul versi NVM.)_
 
 ---
 
@@ -132,9 +135,10 @@ Verifikasi instalasi:
 node --version
 ```
 
-> *(Petunjuk: Jika berhasil, akan muncul versi Node.js.)*
+> _(Petunjuk: Jika berhasil, akan muncul versi Node.js.)_
 
-> 💡 *Saran:* Sangat dianjurkan untuk mempelajari perintah-perintah NVM seperti:
+> 💡 _Saran:_ Sangat dianjurkan untuk mempelajari perintah-perintah NVM seperti:
+>
 > - `nvm list`
 > - `nvm use`
 > - `nvm install <version>`
@@ -146,7 +150,9 @@ node --version
 Silakan download terlebih dahulu ketiga installer berikut ini:
 
 [Link Download VScode](https://code.visualstudio.com/thank-you?dv=linux64_deb)
+
 [LInk Download Slack](https://slack.com/downloads/instructions/linux?ddl=1&build=deb)
+
 [Link Download Zoom](https://zoom.us/download?os=linux)
 
 (Petunjuk: Ketika klik Link Download Zoom akan diarahkan kesebuah halaman download scroll kebawah pilh linux type Ubuntu lalu klik Download)
@@ -156,8 +162,12 @@ Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads me
 ```bash
 pwd
 ```
-Setelah itu akan muncul contoh hasil seperti ini: 
-/home/ivandito
+
+Setelah itu akan muncul contoh hasil seperti ini:
+
+```JANGAN DI COPY
+/home/'nama_user'
+```
 
 Kemudian kita cek lagi ada folder apa saja, ketikan perintah berikut:
 
@@ -165,9 +175,12 @@ Kemudian kita cek lagi ada folder apa saja, ketikan perintah berikut:
 ls
 ```
 
-Setelah itu akan muncul contoh hasil seperti ini: 
-Desktop    Downloads  Music     Public     Videos
-Documents  KodingUp   Pictures  Templates
+Setelah itu akan muncul contoh hasil seperti ini:
+
+```(JANGAN DI COPY)
+Desktop Downloads Music Public Videos
+Documents KodingUp Pictures Templates
+```
 
 Kemudian kita akan masuk ke folder Downloads, karena ketiga instaler yang telah kita download berada disitu, ketikan perintah berikut:
 
@@ -181,13 +194,16 @@ Sekarang lokasi teman-teman harusnya berada di (/home/'nama_user'/Downloads) Kem
 ls
 ```
 
-Setelah itu akan muncul contoh hasil seperti ini: 
-code_1.114.0-1775036290_amd64.deb  zoom_amd64.deb
+Setelah itu akan muncul contoh hasil seperti ini:
+
+```JANGAN DI COPY
+code_1.114.0-1775036290_amd64.deb zoom_amd64.deb
 slack-desktop-4.47.69-amd64.deb
+```
 
 (Petunjuk: Semua instaler aplikasi Linux berbasis Debian seperti Ubuntu memiliki extention .deb)
 
-Akhirnya ketiga instaler sudah berhasil teman-teman download, mari kita selesaikan tahap terakhir instalasi. Jalankan perintah instalasi berikut ini satu per satu. 
+Akhirnya ketiga instaler sudah berhasil teman-teman download, mari kita selesaikan tahap terakhir instalasi. Jalankan perintah instalasi berikut ini satu per satu.
 
 (Petunjuk: Pastikan lokasi teman-teman berada di /home/'nama_user'/Downloads menggunakan perintah pwd)
 
@@ -222,15 +238,17 @@ node --version
 ```
 
 Contoh output:
-```
+
+```JANGAN DI COPY
 git version 2.xx.x
 0.xx.x
 vxx.xx.x
 ```
 
-> *(Catatan: Versi bisa berbeda, itu normal.)*
+> _(Catatan: Versi bisa berbeda, itu normal.)_
 
 Untuk aplikasi GUI seperti:
+
 - **VSCode**
 - **Slack**
 - **Zoom**
@@ -252,4 +270,3 @@ Terus semangat belajar dan eksplorasi! 🚀
 
 **Valdryan Ivandito**  
 Peserta **KodingUp Batch-2**
- 
