@@ -157,7 +157,7 @@ Silakan download terlebih dahulu ketiga installer berikut ini:
 
 (Petunjuk: Ketika klik Link Download Zoom akan diarahkan kesebuah halaman download scroll kebawah pilh linux type Ubuntu lalu klik Download)
 
-Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads melalui terminal. Buka kembali terminal, lalu ketikan perintah berikut untuk memastikan posisi teman-teman sedang berada di (/home/'nama_user'):
+Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads melalui terminal. Buka kembali terminal, lalu ketikan perintah berikut untuk memastikan posisi teman-teman sedang berada di (/home/<username>):
 
 ```bash
 pwd
@@ -166,7 +166,7 @@ pwd
 Setelah itu akan muncul contoh hasil seperti ini (JANGAN DI COPY HANYA CONTOH):
 
 ```
-/home/'nama_user'
+/home/<username>
 ```
 
 Kemudian kita cek lagi ada folder apa saja, ketikan perintah berikut:
@@ -188,7 +188,7 @@ Kemudian kita akan masuk ke folder Downloads, karena ketiga instaler yang telah 
 cd Downloads
 ```
 
-Sekarang lokasi teman-teman harusnya berada di (/home/'nama_user'/Downloads) Kemudian kita cek lagi untuk memastikan apakah ketiga installer itu ada di folder Download, ketikan perintah berikut:
+Sekarang lokasi teman-teman harusnya berada di (/home/<username>/Downloads) Kemudian kita cek lagi untuk memastikan apakah ketiga installer itu ada di folder Download, ketikan perintah berikut:
 
 ```bash
 ls
@@ -205,7 +205,7 @@ slack-desktop-4.47.69-amd64.deb
 
 Akhirnya ketiga instaler sudah berhasil teman-teman download, mari kita selesaikan tahap terakhir instalasi. Jalankan perintah instalasi berikut ini satu per satu.
 
-(Petunjuk: Pastikan lokasi teman-teman berada di /home/'nama_user'/Downloads menggunakan perintah pwd)
+(Petunjuk: Pastikan lokasi teman-teman berada di /home/<username>/Downloads menggunakan perintah pwd)
 
 Instalasi VSCode
 
