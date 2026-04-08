@@ -163,7 +163,7 @@ Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads me
 whoami
 ```
 
-Cek Lokasi Saat Ini: Secara default, saat terminal dibuka, kamu berada di folder (/home/username). Untuk memastikannya, ketik perintah berikut:
+Secara default, saat terminal dibuka, kamu berada di folder (/home/username). Untuk memastikannya, ketik perintah berikut:
 
 ```bash
 pwd
