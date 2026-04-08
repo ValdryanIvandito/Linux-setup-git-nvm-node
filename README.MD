@@ -157,7 +157,7 @@ Silakan download terlebih dahulu ketiga installer berikut ini:
 
 (Petunjuk: Ketika klik Link Download Zoom akan diarahkan kesebuah halaman download scroll kebawah pilh linux type Ubuntu lalu klik Download)
 
-Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads melalui terminal. Buka kembali terminal, Cek Identitas Kamu, penting untuk tahu siapa "nama user" kamu di sistem ini. Ketik perintah berikut:
+Setelah ketiga instaler sudah di download mari kita masuk ke folder Downloads melalui terminal. Buka kembali terminal, Cek Identitas Kamu, penting untuk tahu siapa "nama user atau username" kamu di sistem ini. Ketik perintah berikut:
 
 ```bash
 whoami
