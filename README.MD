@@ -213,23 +213,13 @@ Akhirnya ketiga instaler sudah berhasil teman-teman download, mari kita selesaik
 
 (Petunjuk: Pastikan lokasi teman-teman berada di /home/username/Downloads menggunakan perintah pwd)
 
-Instalasi VSCode
+Berikut adalah perintah cara eksekusi file instaler:
 
 ```bash
-sudo apt install ./code_1.114.0-1775036290_amd64.deb
+sudo apt install ./namaFileInstaler.deb
 ```
 
-Instalasi Slack
-
-```bash
-sudo apt install ./slack-desktop-4.47.69-amd64.deb
-```
-
-Instalasi Zoom
-
-```bash
-sudo apt install ./zoom_amd64.deb
-```
+(Petunjuk: JANGAN COPY PASTE MENTAH - MENTAH periksa kembali nama file instaler nya)
 
 ---
 
